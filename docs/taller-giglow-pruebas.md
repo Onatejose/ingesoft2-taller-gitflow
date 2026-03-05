@@ -25,7 +25,9 @@ si alguna condicion no se cumple, el sistema no debe permitir la inscripcion.
 
 **Tecnica seleccionada:** Tabla de decisión
 
-**Justificación:** Este tipo de tecnica es la mejor ya que nos permite comparar varias condiciones y acciones para analizar como estas diferentes combinaciones nos pueden llevar a varios resultados y asi ayudandonos para el caso de prueba.
+## 3. Tecnicas de Prueba Aplicadas
+
+-Tecnica de prueba seleccionada
 
 ---
 
@@ -34,31 +36,22 @@ si alguna condicion no se cumple, el sistema no debe permitir la inscripcion.
 ---
 ## RF-03 Inscripción a Evento
 
-**Diseño de casos de prueba:**
+-Justificacion
 
 - **CP-05:** En este caso de prueba se asume que la persona está registrado, el evento tiene cupos disponibles y la persona esta previamente inscrita, por ende el resultado es que se registra exitosamente en el evento. 
 
 
-| ¿Está registrado? | ¿El evento tiene cupos disponibles? | ¿Está previamente inscrito? | ¿Se registra en el evento? |
-|------------------|-----------------------|----------------------|----------------------|
-| Sí               | Sí                    | No                   | Sí                   |
+## 4. Casos de Prueba Diseñados
+
 
 
 - **CP-06:** En este caso de prueba se asume que la persona NO está registrado, el evento tiene cupos disponibles y la persona esta previamente inscrita, por ende el resultado es que se NO registra en el evento. 
 
 
-| ¿Está registrado? | ¿El evento tiene cupos disponibles? | ¿Está previamente inscrito? | ¿Se registra en el evento? |
-|------------------|-----------------------|----------------------|----------------------|
-| No               | Si                   | Si                   | No                   |
+-Validación de cobertura.
 
 
 
-
-
-
-
-
----
 
 ## 5. Trazabilidad
 
