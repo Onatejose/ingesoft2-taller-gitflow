@@ -20,46 +20,6 @@ Un estudiante podrá inscribirse a un evento solo si:
 si alguna condicion no se cumple, el sistema no debe permitir la inscripcion.
 ---
 
-# 2. Tecnica de prueba seleccionada
-
-Para este requerimiento se usaran las siguientes tecnicas:
-
-- **Análisis de valores límite**
-
----
-
-# 3. Justificacion
-
-Esta tecnica se selecciona porque el requerimiento define **un rango numérico válido (16–65)**.Por lo que **Valores límite** permite verificar los valores cercanos a los bordes del rango, donde suelen aparecer errores en las validaciones.
-
----
-
-# 4. Casos de prueba – Análisis de Valores Límite
-
-Rango permitido para la edad:
-
-16 ≤ edad ≤ 65
-
-| Edad | Rango |
-|-----|------|
-| 15 | Fuera del rango |
-| 16 | Dentro del rango |
-| 17 | Dentro del rango |
-| 64 | Dentro del rango |
-| 65 | Dentro del rango |
-| 66 | Fuera del rango |
-
-# 5. Validación de cobertura.
-
-La cobertura de pruebas es adecuada porque:
-
-- Se prueban los valores límite críticos:
-  - límite inferior
-  - límite superior
-  - valores inmediatamente antes y después de cada límite.
-
-Esto garantiza que el comportamiento del sistema sea correcto en todo el rango de entrada definido por el requerimiento.
-
 ## 3. Tecnicas de Prueba Aplicadas
 
 ---
