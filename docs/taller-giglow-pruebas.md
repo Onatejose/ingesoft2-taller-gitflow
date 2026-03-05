@@ -1,10 +1,6 @@
 # Documento de Pruebas
 Integrantes:
-Jose Oñate
-Ana Henao
-Juan Victoria
-Jhoan Marín
-Juan Gonzalez
+Jose Oñate, Ana Henao, Juan Victoria, Jhoan Marín, Juan Gonzalez
 ## 1. Descripcion del Sistema
 
 ## 2. Requerimientos a Evaluar
