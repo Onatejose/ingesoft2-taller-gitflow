@@ -15,21 +15,7 @@ Un estudiante podrá inscribirse a un evento solo si:
 - El evento tiene cupos disponibles.
 - No está previamente inscrito.
 
-Si alguna condición no se cumple, el sistema no debe permitir la inscripción.
-
----
-
-# RF01 – Registro de estudiantes por edad
-
-#1 Analisis del requerimiento
-
-- Edad minima permitida: **16**
-- Edad maxima permitida: **65**
-- Si la edad es **menor a 16**, el registro debe ser **rechazado**.
-- Si la edad es **mayor a 65**, el registro debe ser **rechazado**.
-
-Dominio de entrada: **edad del estudiante**.
-
+si alguna condicion no se cumple, el sistema no debe permitir la inscripcion.
 ---
 
 # 2. Tecnica de prueba seleccionada
