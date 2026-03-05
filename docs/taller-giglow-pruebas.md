@@ -2,56 +2,11 @@
 
 ## 1. Descripcion del Sistema
 
-La Plataforma de Gestión de Eventos Universitarios permite registrar estudiantes, validar su código estudiantil e inscribirlos en eventos. El sistema solo acepta estudiantes entre 16 y 65 años. El código estudiantil debe tener 8 caracteres, iniciar con "E" y los 7 restantes ser numéricos. Un estudiante solo puede inscribirse a eventos si está registrado, hay cupos disponibles y no está previamente inscrito. Si alguna condición no se cumple, la inscripción no se permite.
-
 ## 2. Requerimientos a Evaluar
 
----
-## RF-03 Inscripción a Evento
-
-Un estudiante podrá inscribirse a un evento solo si:
-
-- Está registrado.
-- El evento tiene cupos disponibles.
-- No está previamente inscrito.
-
-si alguna condicion no se cumple, el sistema no debe permitir la inscripcion.
----
-
 ## 3. Tecnicas de Prueba Aplicadas
 
----
-## RF-03 Inscripción a Evento
-
-**Tecnica seleccionada:** Tabla de decisión
-
-## 3. Tecnicas de Prueba Aplicadas
-
--Tecnica de prueba seleccionada
-
----
-
 ## 4. Casos de Prueba Diseñados
-
----
-## RF-03 Inscripción a Evento
-
--Justificacion
-
-- **CP-05:** En este caso de prueba se asume que la persona está registrado, el evento tiene cupos disponibles y la persona esta previamente inscrita, por ende el resultado es que se registra exitosamente en el evento. 
-
-
-## 4. Casos de Prueba Diseñados
-
-
-
-- **CP-06:** En este caso de prueba se asume que la persona NO está registrado, el evento tiene cupos disponibles y la persona esta previamente inscrita, por ende el resultado es que se NO registra en el evento. 
-
-
--Validación de cobertura.
-
-
-
 
 ## 5. Trazabilidad
 
