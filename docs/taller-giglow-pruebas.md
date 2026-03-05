@@ -17,7 +17,9 @@ Dominio de entrada: **edad del estudiante**.
 
 ---
 
-# 2. Tecnica de prueba seleccionada
+## 3. Tecnicas de Prueba Aplicadas
+
+-Tecnica de prueba seleccionada
 
 Para este requerimiento se usaran las siguientes tecnicas:
 
@@ -25,13 +27,14 @@ Para este requerimiento se usaran las siguientes tecnicas:
 
 ---
 
-# 3. Justificacion
+-Justificacion
 
 Esta tecnica se selecciona porque el requerimiento define **un rango numérico válido (16–65)**.Por lo que **Valores límite** permite verificar los valores cercanos a los bordes del rango, donde suelen aparecer errores en las validaciones.
 
 ---
 
-# 4. Casos de prueba – Análisis de Valores Límite
+## 4. Casos de Prueba Diseñados
+
 
 Rango permitido para la edad:
 
@@ -46,7 +49,7 @@ Rango permitido para la edad:
 | 65 | Dentro del rango |
 | 66 | Fuera del rango |
 
-# 5. Validación de cobertura.
+-Validación de cobertura.
 
 La cobertura de pruebas es adecuada porque:
 
@@ -56,10 +59,6 @@ La cobertura de pruebas es adecuada porque:
   - valores inmediatamente antes y después de cada límite.
 
 Esto garantiza que el comportamiento del sistema sea correcto en todo el rango de entrada definido por el requerimiento.
-
-## 3. Tecnicas de Prueba Aplicadas
-
-## 4. Casos de Prueba Diseñados
 
 ## 5. Trazabilidad
 
