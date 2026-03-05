@@ -46,7 +46,7 @@ Rango permitido para la edad:
 | 65 | Dentro del rango |
 | 66 | Fuera del rango |
 
-# 5. Validación de cobertura
+# 5. Validación de cobertura.
 
 La cobertura de pruebas es adecuada porque:
 
